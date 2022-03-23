@@ -470,3 +470,8 @@ codes.forEach((code) => {
   countID++;
 }); 
 new ClipboardJS('.btn-copy-code');
+
+
+$(document).ready( function () {
+    $('.cas-datatable').DataTable();
+} );
